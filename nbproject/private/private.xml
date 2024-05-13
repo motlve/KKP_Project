@@ -3,35 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/form/Form_DataKelas.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/Panel.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/form/Form_DataPengguna.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/MenuItem.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/ImageAvatar.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/ScrollBarCustom.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/form/Form_Dashboard.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/MyTextField.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/ListMenu.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/form/Form_GajiGuru.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/form/Form_PembayaranSiswa.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/PanelRound.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/ModernScrollBarUI.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/form/Form_DataGuru.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/model/StatusType.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/component/Menu.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/Button.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/slideshow/Slide3.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/icon/slide3.jpg</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/PanelTransparent.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/slideshow/Slide2.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/login/Login_Main.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/PictureBox.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/icon/slide2.jpeg</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/slideshow/Slide1.java</file>
             <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/main/Main_Dashboard.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/model/Model_Card.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/model/Model_Menu.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/PanelBorder.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/component/Card.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/TableHeader.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/Combobox.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/event/EventMenuSelected.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/TextArea.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/component/Header.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/form/Form_DataSiswa.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/KKP-PROJECT-RB-KIDS/src/com/kkp/swing/TextAreaScroll.java</file>
         </group>
     </open-files>
 </project-private>

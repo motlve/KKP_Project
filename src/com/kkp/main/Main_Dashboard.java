@@ -12,6 +12,9 @@ import com.kkp.form.Form_DataPengguna;
 import com.kkp.form.Form_DataSiswa;
 import com.kkp.form.Form_GajiGuru;
 import com.kkp.form.Form_PembayaranSiswa;
+import com.kkp.slideshow.Slide1;
+import com.kkp.slideshow.Slide2;
+import com.kkp.slideshow.Slide3;
 import java.awt.Color;
 import javax.swing.JComponent;
 
@@ -27,6 +30,8 @@ public class Main_Dashboard extends javax.swing.JFrame {
     public Main_Dashboard() {
         initComponents();
         setBackground(new Color(0,0,0,0));
+        getContentPane().setBackground(new Color(255, 255, 255));
+        slideshow1.initSlideshow(new Slide1(), new Slide2(), new Slide3());
         menu1.initMoving(Main_Dashboard.this);
         menu1.addEventMenuSelected(new EventMenuSelected() {
             @Override
@@ -45,6 +50,8 @@ public class Main_Dashboard extends javax.swing.JFrame {
                     setForm(new Form_GajiGuru());
                 } else if (index == 10) {
                     setForm(new Form_PembayaranSiswa());
+                } else if (index == 18) {
+                    System.exit(0);  // Keluar dari aplikasi Java dengan status 0
                 }
             }
         });
@@ -69,6 +76,7 @@ public class Main_Dashboard extends javax.swing.JFrame {
         panelBorder1 = new com.kkp.swing.PanelBorder();
         menu1 = new com.kkp.component.Menu();
         mainPanel = new javax.swing.JPanel();
+        slideshow1 = new com.kkp.slideshow.Slideshow();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -79,6 +87,7 @@ public class Main_Dashboard extends javax.swing.JFrame {
         mainPanel.setBackground(new java.awt.Color(255, 153, 153));
         mainPanel.setOpaque(false);
         mainPanel.setLayout(new java.awt.BorderLayout());
+        mainPanel.add(slideshow1, java.awt.BorderLayout.CENTER);
 
         javax.swing.GroupLayout panelBorder1Layout = new javax.swing.GroupLayout(panelBorder1);
         panelBorder1.setLayout(panelBorder1Layout);
@@ -87,29 +96,24 @@ public class Main_Dashboard extends javax.swing.JFrame {
             .addGroup(panelBorder1Layout.createSequentialGroup()
                 .addComponent(menu1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(mainPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 859, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(mainPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 1012, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         panelBorder1Layout.setVerticalGroup(
             panelBorder1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelBorder1Layout.createSequentialGroup()
-                .addGroup(panelBorder1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(menu1, javax.swing.GroupLayout.PREFERRED_SIZE, 746, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(mainPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 732, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(menu1, javax.swing.GroupLayout.DEFAULT_SIZE, 726, Short.MAX_VALUE)
+            .addComponent(mainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(panelBorder1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 44, Short.MAX_VALUE))
+            .addComponent(panelBorder1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(panelBorder1, javax.swing.GroupLayout.PREFERRED_SIZE, 732, Short.MAX_VALUE)
+            .addComponent(panelBorder1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -155,5 +159,6 @@ public class Main_Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel mainPanel;
     private com.kkp.component.Menu menu1;
     private com.kkp.swing.PanelBorder panelBorder1;
+    private com.kkp.slideshow.Slideshow slideshow1;
     // End of variables declaration//GEN-END:variables
 }
